@@ -166,7 +166,6 @@
     behaviors {
         hrm_l: hrm_l {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_L";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -178,7 +177,6 @@
 
         hrm_r: hrm_r {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_R";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;

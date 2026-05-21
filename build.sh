@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-build_reset=true
+build_reset=false
 
 # NOTE: Change the keyboard names, controller type and etc from here.
 shield_left='klor_left'

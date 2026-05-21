@@ -15,7 +15,6 @@ KLOR is a 36-42 key column-staggered split keyboard. It supports a per key RGB m
 
 Polydactyl is the default layout. If you choose one of the other layouts you can use the matching template in the default keymap.
 
-
 ## HOW TO USE
 
 - fork this repo
@@ -28,7 +27,6 @@ Polydactyl is the default layout. If you choose one of the other layouts you can
 - the keyboard should now appear as a mass storage device
 - drag'n'drop the `klor_left-nice_nano_v2-zmk.uf2` file from the archive onto the storage device
 - repeat this process with the right half and the `klor_right-nice_nano_v2-zmk.uf2` file.
-
 
 ## KNOWN ISSUES
 

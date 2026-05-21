@@ -18,7 +18,7 @@
 &spi1 {
 	compatible = "nordic,nrf-spim";
 	status = "okay";
-	
+
 	pinctrl-0 = <&spi1_default>;
 	pinctrl-1 = <&spi1_sleep>;
 	pinctrl-names = "default", "sleep";
@@ -35,7 +35,6 @@
 		chain-length = <21>; /* arbitrary; change at will */
 		spi-one-frame = <0x70>;
 		spi-zero-frame = <0x40>;
-
 		color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
 	};
 };
